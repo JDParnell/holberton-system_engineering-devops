@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# until loop holberton 10 times
+x=1
+until [ $x -gt 10 ]
+do
+	((x++))
+	echo "Holberton School"
+done
