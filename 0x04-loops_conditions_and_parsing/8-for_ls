@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# prints the cwd
+for f in *;
+do
+	echo "${f#*-}"
+done
