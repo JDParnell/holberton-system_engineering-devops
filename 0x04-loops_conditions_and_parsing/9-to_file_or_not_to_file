@@ -1,4 +1,4 @@
-B#!/usr/bin/env bash
+#!/usr/bin/env bash
 # checks files status
 FILE=holbertonschool
 if test -f "$FILE"; then
