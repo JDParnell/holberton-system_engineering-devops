@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # fizz buzz (I always want to say fizz bizz instead...)
-x=0
+x=1
 while [ $x -le 100 ]
 do
 	if [ $((x % 3 )) -eq 0 -a $((x % 5)) -eq 0 ]; then
