@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # checks files status
 FILE=holbertonschool
-if test "$FILE"; then
+if test -e "$FILE"; then
     echo "holbertonschool file exists"
     if [ -s "$FILE" ]; then
 	echo "holbertonschool file is not empty"
