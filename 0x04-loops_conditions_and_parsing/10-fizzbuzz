@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# fizz buzz (I always want to say fizz bizz instead...)
+x=0
+while [ $x -le 100 ]
+do
+	if [ $((x % 3 )) -eq 0 -a $((x % 5)) -eq 0 ]; then
+	echo "FizzBuzz"
+	elif [ $((x % 3)) -eq 0 ]; then
+	echo "Fizz"
+	elif [ $((x % 5)) -eq 0 ]; then
+	echo "Buzz"
+	else
+	echo "$x"
+	fi
+	((x++))
+done
