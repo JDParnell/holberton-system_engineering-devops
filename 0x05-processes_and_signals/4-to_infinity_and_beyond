@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+B#!/usr/bin/env bash
 # to infinity and beyond, repeat forever
 x=1
 while [ $x -eq 1 ]
 do
-	echo "to infinity and beyond"
+	echo "To infinity and beyond"
 	sleep 2
 done
