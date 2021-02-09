@@ -1,4 +1,4 @@
-B#!/usr/bin/env bash
+#!/usr/bin/env bash
 # to infinity and beyond, repeat forever
 x=1
 while [ $x -eq 1 ]
