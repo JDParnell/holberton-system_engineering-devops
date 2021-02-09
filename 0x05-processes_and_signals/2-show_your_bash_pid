@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# prints bash pid
+# shellcheck disable=SC2009
+ps -p $(pidof bash)
