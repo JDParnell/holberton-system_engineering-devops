@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Creating a private key pair for betty holberton
+ssh-keygen -t rsa -b 4096 -f holberton -N betty
