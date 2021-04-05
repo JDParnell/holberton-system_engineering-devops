@@ -1,13 +1,13 @@
 # puppet code for the task
 
-file_line { 'Turn off passwd auth':
-  ensure => 'present'
-  path   => 'ssh/config'
-  line   => 'PasswordAuthentication no'
+file_line { 'PA':
+  ensure => 'present',
+  path   => '/.ssh/config',
+  line   => 'PasswordAuthentication no',
 }
 
-file_line { 'Declare identity file':
-  ensure => 'present'
-  path   => 'ssh/config'
-  line   => 'IdentityFile ~/.ssh/holberton'
+file_line { 'IF':
+  ensure => 'present',
+  path   => '/.ssh/config',
+  line   => 'IdentityFile ~/.ssh/holberton',
 }
