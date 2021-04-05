@@ -1,11 +1,13 @@
-file_line { 'Turn off passwd auth':
-  ensure => 'present'
-  path   => 'etc/ssh/ssh_config'
-  line   => 'PasswordAuthentication no'
+# Puppet script to edit config file.
+
+file_line { 'Identity file':
+  ensure => present,
+  line   => 'IdentityFile ~/.ssh/holberton',
+  path   => '/.ssh/config',
 }
 
-file_line { 'Declare identity file':
-  ensure => 'present'
-  path   => 'etc/ssh/ssh_config'
-  line   => 'IdentityFile ~/.ssh/holberton'
+file_line { 'No password':
+  ensure => present,
+  line   => 'PasswordAuthentication no',
+  path   => '/.ssh/config',
 }
