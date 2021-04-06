@@ -1,4 +1,4 @@
-B#!/usr/bin/env bash
+#!/usr/bin/env bash
 # installs ngix to server
 sudo apt-get -y update
 sudo apt-get -y upgrade
