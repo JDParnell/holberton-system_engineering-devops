@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# One line of code, a whole world of possibility
+servie apache2 start
