@@ -1,0 +1,1 @@
+Configuring a second server and creating load balancer settings
