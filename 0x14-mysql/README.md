@@ -1,0 +1,1 @@
+This directory contains the set up for adding MySQL to my webservers
