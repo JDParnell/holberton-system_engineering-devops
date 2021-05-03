@@ -28,4 +28,5 @@ if __name__ == "__main__":
             list_dict.append(x)
     task_dict[u_id] = list_dict
     json_string = json.dumps(task_dict)
-    print(json_string)
+    with open(filename, 'w') as outfile:
+        json.dump(task_dict, outfile)
