@@ -1,0 +1,1 @@
+This directory contains files working with REST api
