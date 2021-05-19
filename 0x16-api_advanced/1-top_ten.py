@@ -9,7 +9,7 @@ def top_ten(subreddit):
     if subreddit is None:
         print("None")
         return
-    url = "https://www.reddit.com/r/" + str(subreddit) + "/top/.json?limit=10"
+    url = "https://www.reddit.com/r/" + str(subreddit) + "/hot/.json?limit=10"
     headers = {'User-Agent': 'Sel'}
     r = requests.get(url, headers=headers, allow_redirects=False)
     if r.status_code != 200:
